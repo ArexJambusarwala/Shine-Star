@@ -1,0 +1,83 @@
+#not-login{
+    text-align: center;
+    color: #4ca1af;
+    font-weight: bolder;
+    font-family: 'Playfair Display', serif;
+}
+#no-of-packets, #address-phone{
+    text-align: center;
+    color: #4ca1af;
+    font-weight: bolder;
+    font-family: 'Playfair Display', serif;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+/* Button Header */
+.button-header {
+    margin: 0 23px 0 10px;
+    display: inline-block;
+}
+
+.button-header a {
+    color: #4ca1af;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+	padding: 12px 25px;
+	border: 1px solid #4ca1af;
+	border-radius: 25px;
+	position: relative;
+	display: block;
+	background-color: #fff;
+    -webkit-transition: all .8s cubic-bezier(.3,.95,.3,.95);
+    -moz-transition: all .8s cubic-bezier(.3,.95,.3,.95);
+    transition: all .8s cubic-bezier(.3,.95,.3,.95);
+}
+
+.button-header a:before {
+	content: '';
+	position: absolute;
+	background-color: #4ca1af;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: block;
+	opacity: 1;
+	z-index: -1;
+	visibility: visible;
+	border-radius: 25px;
+	-webkit-transition: all .8s cubic-bezier(.3,.95,.3,.95);
+    -moz-transition: all .8s cubic-bezier(.3,.95,.3,.95);
+    transition: all .8s cubic-bezier(.3,.95,.3,.95);
+}
+
+.button-header a:hover:before {
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(1.15);
+}
+
+.button-header a:hover {
+	background-color: #4ca1af;
+	color: #fff;
+}
+
+/* Button Header */
+
+@media only screen and (min-width: 768px){
+	.no-input{
+		top: 55px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.no-input{
+		margin-bottom: 10px;
+	}
+}

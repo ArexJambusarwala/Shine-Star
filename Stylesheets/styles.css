@@ -86,10 +86,154 @@ nav ul li a:hover {
 	opacity: 0.7;
 }
 
-h2{
-	font-weight: bolder;
+
+/* Footer */
+footer,
+.footer-bottom {
+	background-color: #2c3e50;
+}
+
+footer {
+	padding: 56px 0 59px;
+	color: #fff;
+}
+
+/* Widget About */
+.widget-about .logo-ft {
+	margin-bottom: 4px;
+}
+
+.widget-about .logo-ft a {
+	font-size: 30px;
+	font-family: 'Playfair Display';
+	font-weight: bold;
+	color: #4ca1af;
+	line-height: 72px;
+	text-decoration: none;
+}
+
+.widget-about p {
+	font-size: 14px;
+}
+
+/* Widget Categories */
+.widget-categories {
+	margin-left: -1px;
+}
+
+.widget-categories h3.widget-title,
+.widget-contact h3.widget-title {
+    margin-bottom: 24px;
+    margin-top: 28px;
+}
+
+.widget-categories ul.one-half {
+	float: left;
+	padding: 0;
+}
+
+.widget-categories ul.one-half li{
+	list-style: none;
+}
+
+.widget-categories ul.one-half li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+
+.widget-categories ul.one-half li a:hover {
 	color: #4ca1af;
 }
+
+/* Widget Contact */
+.widget-contact h3.widget-title {
+	margin-bottom: 26px;
+	margin-left: 3px;
+}
+
+.widget-contact ul.contact-infomation{
+	padding-left: 0;
+}
+
+.widget-contact ul.contact-infomation li {
+	font-size: 14px;
+	padding-left: 29px;
+	position: relative;
+	list-style: none;
+}
+
+.widget-contact ul.contact-infomation li:before {
+	content: '\f041';
+	position: absolute;
+	font-family: 'fontawesome';
+	top: 0px;
+    left: 1px;
+	font-weight: 400;
+}
+
+.widget-contact ul.contact-infomation li.phone:before {
+	content: '\f095';
+}
+
+.widget-contact ul.contact-infomation li.email:before {
+	content: '\f003';
+}
+
+/* Widget Map */
+.widget-map {
+	margin-top: 21px;
+}
+
+/* Footer Bottom
+-------------------------------------------------------------- */
+.footer-bottom {
+	border-top: 1px solid #4a5867;
+	padding: 19px 0;
+}
+
+.footer-bottom .copyright {
+	color: #c2c2c2;
+	float: left;
+}
+
+.footer-bottom .copyright a:not(:hover) {
+	color: #c2c2c2;
+}
+
+.footer-bottom ul.social-ft {
+	float: right;
+}
+
+.footer-bottom ul.social-ft li {
+	display: inline-block;
+	margin-left: 31px;
+}
+
+.footer-bottom ul.social-ft li:first-child {
+	margin-left: 0px;
+}
+
+.footer-bottom ul.social-ft li a:not(:hover) {
+	color: #c2c2c2;
+}
+
+@media only screen and (max-width: 991px) {
+	footer {
+		padding: 35px 0;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.footer-bottom .copyright,
+	.footer-bottom ul.social-ft {
+		float: none;
+		text-align: center;
+	}
+}
+
+
+/* Footer */
 
 @media(max-width: 580px){
 	.logo{

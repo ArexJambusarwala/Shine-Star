@@ -1,0 +1,103 @@
+h2{
+	font-weight: bolder;
+    color: #4ca1af;
+    font-family: 'Playfair Display', serif;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Playfair Display', serif;
+}
+
+td{
+	font-weight: bold;
+	font-size: 20px;
+	vertical-align: middle !important;
+}
+
+.item-ul{
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+
+#chapati-tooltip+.tooltip.bottom .tooltip-inner {
+	background-color:#4ca1af;
+	min-width: 25em !important;
+}
+#chapati-tooltip+.tooltip.bottom .tooltip-arrow {
+      border-bottom-color: #4ca1af;
+}
+
+#rice-tooltip+.tooltip.bottom .tooltip-inner {
+	background-color:white;
+	min-width: 25em !important;
+}
+#rice-tooltip+.tooltip.bottom .tooltip-arrow {
+      border-bottom-color: white;
+}
+
+.rice-wrapper{
+    background: linear-gradient(-90deg, rgba(76, 161, 175, 0.9), rgba(44, 62, 80, 0.9));
+}
+
+/* Button Header 
+.button-header {
+	display: inline-block;
+	margin: 0 23px 0 10px;
+}
+
+.button-header a {
+	color: #4ca1af;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 12px 25px;
+	border: 1px solid #4ca1af;
+	border-radius: 25px;
+	position: relative;
+	display: block;
+	background-color: #fff;
+    -webkit-transition: all .8s cubic-bezier(.3,.95,.3,.95);
+    -moz-transition: all .8s cubic-bezier(.3,.95,.3,.95);
+    transition: all .8s cubic-bezier(.3,.95,.3,.95);
+}
+
+.button-header a:before {
+	content: '';
+	position: absolute;
+	background-color: #4ca1af;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: block;
+	opacity: 1;
+	z-index: -1;
+	visibility: visible;
+	border-radius: 25px;
+	-webkit-transition: all .8s cubic-bezier(.3,.95,.3,.95);
+    -moz-transition: all .8s cubic-bezier(.3,.95,.3,.95);
+    transition: all .8s cubic-bezier(.3,.95,.3,.95);
+}
+
+.button-header a:hover:before {
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(1.15);
+}
+
+.button-header a:hover {
+	background-color: #4ca1af;
+	color: #fff;
+}
+
+.button-header a i {
+	font-size: 12px;
+    margin-right: 17px;
+    margin-left: 3px;
+}
+
+Button header */
